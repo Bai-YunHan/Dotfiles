@@ -145,8 +145,8 @@ export PYTHONPATH=$HOME/Workspace/current/taxim
 export PYTHONPATH=${PYTHONPATH}:$HOME/Workspace/current/taxim-pyrender
 
 
-# Disable the dangerous rm command.
-alias rm="echo 'rm command is disabled'"
+# # Disable the dangerous rm command.
+# alias rm="echo 'rm command is disabled'"
 
 # Git alias
 git config --global alias.squash '!f(){ git reset --soft HEAD~${1} && git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"; };f'
