@@ -1,5 +1,11 @@
 Following are installation steps.
 
+<u>Step 0</u> : 
+Install zsh and stow.
+```bash
+sudo apt install zsh stow
+```
+
 <u>Step 1</u> : 
 Install Oh My Zsh non-interactively.
 ```bash
